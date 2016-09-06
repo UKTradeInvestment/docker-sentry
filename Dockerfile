@@ -1,4 +1,4 @@
-FROM sentry:8.2-onbuild
+FROM sentry:8.7-onbuild
 
 RUN  apt-get update -y
 RUN  apt-get install -y netcat
